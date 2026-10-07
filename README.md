@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=1000&color=2f81f7&center=true&vCenter=true&width=360&height=44&lines=Ezra%20Okari%2C%20Welcome." alt="Typing headlines" />
 </p>
-[![Portfolio](https://ezrabrands.kesug.com)
+
 ### 🚀 About Me
 
 ### EZRA OKARI  
@@ -15,6 +15,7 @@
 Analytical and innovative technology professional passionate about **data, software development, cybersecurity, and building practical digital solutions**. Skilled in **Python, SQL, JavaScript, React, Node.js, APIs, databases, and data analysis**, with a strong problem-solving mindset and a continuous drive to learn, create, and improve.  
 **Analytical • Innovative • Creative • Problem-Solver • Adaptable • Tech-Savvy • Security-Minded • Fast Learner**
 
+VISIT MY PORTFOLIO>>> https://ezrabrands.kesug.com
 
 🔭 &nbsp;I'm currently working on **a Bio-Tech project**  
 🌱 &nbsp;I'm currently learning **Technology in the medical field**  
