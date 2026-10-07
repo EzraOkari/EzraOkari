@@ -1,72 +1,92 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#06121a">
-<meta name="description" content="Ezra Okari: data analyst, full-stack developer and cybersecurity and technology professional.">
-<title>Ezra Okari — Hello there</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306121a'/%3E%3Cpath d='M8 7h17v4H13v4h10v4H13v4h12v4H8Z' fill='%232ea043'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;min-height:100vh;font-family:Inter,system-ui,sans-serif;color:#eef6fb;background:#06121a;-webkit-font-smoothing:antialiased}
-a{color:inherit;text-decoration:none}h1,h2,p{margin:0}
-:focus-visible{outline:2px solid #7ee787;outline-offset:3px}
-.bg{position:fixed;inset:0;z-index:-2;overflow:hidden;background:linear-gradient(135deg,#06121a,#0b2a3a)}
-.bg video{width:100%;height:100%;object-fit:cover}
-.tint{position:fixed;inset:0;z-index:-1;background:rgba(5,14,22,.55)}
-main{max-width:920px;margin:0 auto;padding:clamp(40px,8vw,96px) 20px 40px;text-align:center}
-.hello{font-family:Caveat,cursive;font-weight:600;font-size:clamp(30px,5vw,46px);color:#7ee787;margin-bottom:6px}
-h1{font-size:clamp(44px,9vw,92px);font-weight:700;letter-spacing:-.05em;line-height:1;text-shadow:0 4px 30px rgba(0,0,0,.4)}
-.role{margin-top:14px;font-size:clamp(14px,2vw,18px);font-weight:500;color:#cfe3f1}
-.go{position:relative;display:inline-flex;align-items:center;gap:12px;margin:34px 0 8px;padding:18px 36px;border-radius:999px;font-size:18px;font-weight:700;color:#fff;background:linear-gradient(135deg,#2ea043,#2f81f7);box-shadow:0 10px 40px rgba(47,129,247,.45),inset 0 0 0 1px rgba(255,255,255,.35);overflow:hidden;transition:transform .25s,box-shadow .25s}
-.go:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 16px 50px rgba(46,160,67,.55),inset 0 0 0 1px rgba(255,255,255,.5)}
-.go::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.5),transparent);transform:skewX(-20deg);animation:shine 3.2s ease-in-out infinite}
-@keyframes shine{0%{left:-60%}60%,100%{left:130%}}
-.url{font-size:13px;color:#a9c3d4}
-.glass{margin-top:22px;padding:clamp(20px,3vw,32px);border:1px solid rgba(255,255,255,.2);border-radius:24px;background:rgba(255,255,255,.07);backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px) saturate(140%);text-align:left;box-shadow:0 20px 50px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.25)}
-.glass h2{font-size:20px;font-weight:600;letter-spacing:-.02em;margin-bottom:14px}
-.glass p{line-height:1.65;color:#d6e6f1}
-.traits{margin-top:14px!important;font-weight:600;color:#9be9a8!important}
-.now{list-style:none;margin:0;padding:0;display:grid;gap:12px}.now li{line-height:1.55;color:#d6e6f1}.now b{color:#fff}
-.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
-.chips li{padding:7px 13px;border:1px solid rgba(255,255,255,.25);border-radius:999px;background:rgba(255,255,255,.08);font-size:13px;font-weight:500}
-.links{display:flex;flex-wrap:wrap;gap:12px}
-.links a{padding:11px 20px;border:1px solid rgba(255,255,255,.4);border-radius:999px;font-weight:600;font-size:14px;transition:background .25s,color .25s}
-.links a:hover{background:#fff;color:#06121a}
-footer{padding:26px 20px 40px;text-align:center;font-size:13px;color:#a9c3d4}footer a{text-decoration:underline;text-underline-offset:3px}
-@media(prefers-reduced-motion:reduce){.go::after{animation:none}.bg video{display:none}html{scroll-behavior:auto}}
-</style>
-</head>
-<body>
-<div class="bg" aria-hidden="true"><video id="v" autoplay muted loop playsinline preload="auto" src="https://media.prettysites.io/backgrounds/particle-tide/v1/video.mp4"></video></div>
-<div class="tint" aria-hidden="true"></div>
-<main>
-<p class="hello">Hello there! I’m</p>
-<h1>Ezra Okari</h1>
-<p class="role">Data Analyst | Full-Stack Developer | Cybersecurity &amp; Technology</p>
-<a class="go" href="https://ezrabrands.kesug.com" target="_blank" rel="noopener">View my portfolio <span aria-hidden="true">↗</span></a>
-<p class="url">ezrabrands.kesug.com</p>
+<p align="center">
+  <a href="https://github.com/EzraOkari">
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea043&fontSize=54&height=90&width=634&text=Hello%20there!%20%20I'm" alt="Hello there!  I&#39;m" />
+  </a>
+</p>
 
-<section class="glass" aria-labelledby="a"><h2 id="a">About me</h2>
-<p>Analytical and innovative technology professional passionate about data, software development, cybersecurity, and building practical digital solutions. Skilled in Python, SQL, JavaScript, React, Node.js, APIs, databases, and data analysis, with a strong problem-solving mindset and a continuous drive to learn, create, and improve.</p>
-<p class="traits">Analytical • Innovative • Creative • Problem-Solver • Adaptable • Tech-Savvy • Security-Minded • Fast Learner</p></section>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=1000&color=2f81f7&center=true&vCenter=true&width=360&height=44&lines=Ezra%20Okari%2C%20Welcome." alt="Typing headlines" />
+</p>
 
-<section class="glass" aria-labelledby="n"><h2 id="n">Right now</h2>
-<ul class="now"><li>🔭 Currently working on <b>a Bio-Tech project</b></li><li>🌱 Currently learning <b>technology in the medical field</b></li><li>👯 Looking to collaborate on <b>open-source developer tools, system development and analysis</b></li><li>⚡ Fun fact: <b>I use dark mode because I’m a developer, not a lighthouse.</b></li></ul></section>
+### 🚀 About Me
 
-<section class="glass" aria-labelledby="t"><h2 id="t">Tech stack</h2>
-<ul class="chips"><li>JavaScript</li><li>TypeScript</li><li>Python</li><li>Java</li><li>C++</li><li>PHP</li><li>Kotlin</li><li>R</li><li>HTML5</li><li>CSS3</li><li>Bash</li><li>SQL</li><li>Rust</li><li>React</li><li>Next.js</li><li>Node.js</li><li>React Native</li><li>Django</li><li>MySQL</li><li>MongoDB</li><li>Firebase</li><li>AWS</li><li>Netlify</li><li>Heroku</li><li>Vercel</li><li>Git</li><li>GitHub</li><li>VS Code</li><li>IntelliJ IDEA</li><li>Linux</li><li>Vim</li></ul></section>
+### EZRA OKARI  
+**Data Analyst | Full-Stack Developer | Cybersecurity &amp; Technology**  
+Analytical and innovative technology professional passionate about **data, software development, cybersecurity, and building practical digital solutions**. Skilled in **Python, SQL, JavaScript, React, Node.js, APIs, databases, and data analysis**, with a strong problem-solving mindset and a continuous drive to learn, create, and improve.  
+**Analytical • Innovative • Creative • Problem-Solver • Adaptable • Tech-Savvy • Security-Minded • Fast Learner**
 
-<section class="glass" aria-labelledby="c"><h2 id="c">Connect with me</h2>
-<div class="links"><a href="https://github.com/EzraOkari" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/okariezra54" target="_blank" rel="noopener">LinkedIn</a><a href="https://instagram.com/hello._.wavis" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@wavis54" target="_blank" rel="noopener">TikTok</a><a href="mailto:ezra.spartta54@gmail.com">Email</a></div></section>
-</main>
-<footer>⭐️ From <a href="https://github.com/EzraOkari">EzraOkari</a></footer>
-<script>
-(function(){var v=document.getElementById('v');if(matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause();return;}
-v.addEventListener('error',function(){v.remove();});var p=v.play();if(p)p.catch(function(){});}());
-</script>
-</body>
-</html>
+
+🔭 &nbsp;I'm currently working on **a Bio-Tech project**  
+🌱 &nbsp;I'm currently learning **Technology in the medical field**  
+👯 &nbsp;I'm looking to collaborate on **open-source developer tools, System development and Analysis**  
+💬 &nbsp;Ask me about **Python | SQL | JavaScript | React | Node.js | APIs | Databases | Data Analysis | Cybersecurity | Google Cloud | Git | Full-Stack Development | Web Technologies| Machine-Learning**  
+😄 &nbsp;Pronouns: **He/Him**  
+⚡ &nbsp;Fun fact: **I use dark mode because I’m a developer, not a lighthouse.**
+
+### 🛠️ Tech Stack
+
+<p align="left">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
+  <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim" />
+</p>
+
+### 🔗 Connect With Me
+
+<p align="left">
+  <a href="https://linkedin.com/in/www.linkedin.com/in/okariezra54"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://instagram.com/instagram.com/hello._.wavis"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://tiktok.com/@tiktok.com/wavis54"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" /></a>
+  <a href="https://ezrabrands.kesug.com"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:ezra.spartta54@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=EzraOkari&show_icons=true&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=EzraOkari&layout=compact&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
+</p>
+
+### 📈 Contribution Graph
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph-gold-gamma.vercel.app/graph?username=EzraOkari&bg_color=00000000&color=2ea043&line=2ea043&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
+</p>
+
+### 💭 Dev Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote" />
+</p>
+
+---
+<p align="center"><i>⭐️ From <a href="https://github.com/EzraOkari">EzraOkari</a></i></p>
