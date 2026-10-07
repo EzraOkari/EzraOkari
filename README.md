@@ -15,6 +15,8 @@
 Analytical and innovative technology professional passionate about **data, software development, cybersecurity, and building practical digital solutions**. Skilled in **Python, SQL, JavaScript, React, Node.js, APIs, databases, and data analysis**, with a strong problem-solving mindset and a continuous drive to learn, create, and improve.  
 **Analytical • Innovative • Creative • Problem-Solver • Adaptable • Tech-Savvy • Security-Minded • Fast Learner**
 
+PORTFOLIO: ezrabrands.kesug.com
+
 🔭 &nbsp;I'm currently working on **a Bio-Tech project**  
 🌱 &nbsp;I'm currently learning **Technology in the medical field**  
 👯 &nbsp;I'm looking to collaborate on **open-source developer tools, System development and Analysis**  
